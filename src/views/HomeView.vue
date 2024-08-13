@@ -1,9 +1,14 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import Navbar from "../components/Navbar.vue";
+import Dashboard from "../components/Dashboard.vue";
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Navbar />
+    <div class="container-fluid">
+      <Dashboard />
+      <div class="row"></div>
+    </div>
   </main>
 </template>
