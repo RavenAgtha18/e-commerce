@@ -1,5 +1,5 @@
 <template>
-  <div class="card" style="width: 18rem">
+  <div class="card shadow" style="width: 18rem">
     <img
       :src="product.photo"
       class="card-img-top"
